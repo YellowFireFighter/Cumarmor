@@ -4,7 +4,7 @@ echo Installing required Python packages...
 REM Upgrade pip
 python -m pip install --upgrade pip
 
-REM Install discord.py (use the latest fork that supports slash commands)
+REM Install discord.py
 pip install -U discord.py
 
 REM Install Tornado
