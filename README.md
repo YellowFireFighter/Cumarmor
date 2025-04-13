@@ -5,9 +5,9 @@ Join the Discord: [https://discord.gg/gjpq4K9GuY](https://discord.gg/gjpq4K9GuY)
 ---
 
 ## Overview  
-**Cumarmor** is a Luau whitelist authentication system built for Roblox experiences. It features a Tornado-based backend, a MySQL database, and a Discord bot using Discord.py. This system allows secure key generation and verification for users accessing your game.  
+**Cumarmor** is a Luau whitelist authentication system built for Roblox experiences. It features a Tornado-based backend, a MySQL database, and a Discord bot using Discord.py. This system allows secure key generation and verification for users accessing your script.  
 
-> ⚠️ **Note:** This repository does **not** include encoding or anti-tamper logic to protect the whitelist client or keys. This is intentional—you should implement your own custom protection mechanisms to secure your deployment.  
+> ⚠️ **Note:** This repository does **not** include encoding or anti-tamper logic to protect the whitelist client or keys. This is intentional—you should implement your own custom protection mechanisms to secure your script.  
 
 ---
 
@@ -25,10 +25,7 @@ Join the Discord: [https://discord.gg/gjpq4K9GuY](https://discord.gg/gjpq4K9GuY)
 ### Requirements  
 - Python 3.9+  
 - MySQL server  
-- Pip packages:  
-```bash
-pip install discord.py mysql-connector-python tornado requests
-```  
+- Pip packages
 
 ### Setup  
 
@@ -36,9 +33,12 @@ pip install discord.py mysql-connector-python tornado requests
 ```bash
 git clone https://github.com/yourusername/Cumarmor.git  
 cd Cumarmor
-```  
+```
 
-2. **Configure MySQL**  
+2. **Install Packages**
+Run the install.bat file
+
+3. **Configure MySQL**  
 Make sure your MySQL server is running and accessible. Edit your database credentials in the Python files:  
 ```python
 conn = mysql.connector.connect(
@@ -51,15 +51,22 @@ conn = mysql.connector.connect(
 )
 ```  
 
-3. **Start the Services**  
-Run the Discord bot and the Tornado server. You can do this in separate threads or terminal instances. The bot handles key generation, and the server validates them.
+4. **Start the Services**  
+Run the Discord bot and the Tornado server. You can do this in separate threads or terminal instances.
 
 ---
 
 ## Usage  
 - Admins can generate keys through Discord using commands (not included here for security).  
-- Users submit their key through a Roblox GUI, which sends an HTTP request to the Tornado backend.  
+- Users submit their key through the script, which sends an HTTP request to the Tornado backend.  
 - The backend validates the key against the MySQL database.  
+
+---
+
+## Info
+- Any expired keys will be deleted and the users role will be removed
+- This was made for my use only so it is not very customizable
+- Some parts of it have been removed as they are important to security
 
 ---
 
@@ -72,6 +79,7 @@ You may use, share, and adapt the code for **non-commercial purposes only**, and
 
 ## Contributing  
 Contributions are welcome! Feel free to submit issues or open a pull request. Please stick to non-commercial use and respect the license terms.  
+Anyone who contributes will be credited
 
 ---
 
@@ -81,10 +89,10 @@ This repository does **not** include:
 - Anti-tamper measures  
 - Full command list or key generation logic  
 
-These are left out intentionally to keep the system clean and for you to implement your own protections and enhancements. You are responsible for securing your own deployment.  
+These are left out intentionally to keep my scripts security intact.
 
 ---
 
 ## Contact  
-Need help or want to share how you use Cumarmor?  
-Join the community: [https://discord.gg/gjpq4K9GuY](https://discord.gg/gjpq4K9GuY)
+This is my scripts discord if u need any help.
+Join the discord: [https://discord.gg/gjpq4K9GuY](https://discord.gg/gjpq4K9GuY)
