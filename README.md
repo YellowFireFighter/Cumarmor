@@ -7,7 +7,7 @@ Join the Discord: [https://discord.gg/J9G9GjTYTX](https://discord.gg/J9G9GjTYTX)
 ## Overview  
 **Cumarmor** is a Luau whitelist authentication system built for Roblox experiences. It features a Tornado-based backend, a MySQL database, and a Discord bot using Discord.py. This system allows secure key generation and verification for users accessing your script.  
 
->  **Note:** This code is about 1-2 years old and has not been updated much, this would be good to use as a base for your own whitelist.  
+>  **Note:** This code is about 3 years old and has not been updated much, this would be good to use as a base for your own whitelist.  
 
 ---
 
