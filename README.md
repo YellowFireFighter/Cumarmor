@@ -1,22 +1,21 @@
 # Cumarmor  
 **Developed by** - yellow (@yellowfire_fighter)  
-Join the Discord: [https://discord.gg/gjpq4K9GuY](https://discord.gg/gjpq4K9GuY)  
+Join the Discord: [https://discord.gg/J9G9GjTYTX](https://discord.gg/J9G9GjTYTX)
 
 ---
 
 ## Overview  
 **Cumarmor** is a Luau whitelist authentication system built for Roblox experiences. It features a Tornado-based backend, a MySQL database, and a Discord bot using Discord.py. This system allows secure key generation and verification for users accessing your script.  
 
-> ⚠️ **Note:** This code is about 1-2 years old and has not been updated much, this would be good to use as a base for your own whitelist.  
+>  **Note:** This code is about 1-2 years old and has not been updated much, this would be good to use as a base for your own whitelist.  
 
 ---
 
 ## Features  
-- 🔐 Discord-based whitelist key generation and validation  
-- 🧠 MySQL integration for persistent data storage  
-- 🌐 Tornado web server backend for real-time handling  
-- ⚙️ Easy integration with Roblox scripts using HTTP requests  
-- 🚫 Licensed for **non-commercial** use only  
+-  Discord-based whitelist key generation and validation  
+-  MySQL integration for persistent data storage  
+-  Tornado web server backend for real-time handling  
+-  Easy integration with Roblox scripts using HTTP requests
 
 ---
 
@@ -70,29 +69,8 @@ Run the Discord bot and the Tornado server. You can do this in separate threads 
 
 ---
 
-## License  
-This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.  
-You may use, share, and adapt the code for **non-commercial purposes only**, and **must provide appropriate credit**.  
-[Read the full license here.](https://creativecommons.org/licenses/by-nc/4.0/)  
-
----
-
 ## Contributing  
 Contributions are welcome! Feel free to submit issues or open a pull request. Please stick to non-commercial use and respect the license terms.  
 Anyone who contributes will be credited
 
 ---
-
-## Disclaimer  
-This repository does **not** include:  
-- Obfuscation/Encoding  
-- Anti-tamper measures  
-- Full command list or key generation logic  
-
-These are left out intentionally to keep my scripts security intact.
-
----
-
-## Contact  
-This is my scripts discord if u need any help.
-Join the discord: [https://discord.gg/gjpq4K9GuY](https://discord.gg/gjpq4K9GuY)
